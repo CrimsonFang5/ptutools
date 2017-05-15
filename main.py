@@ -29,6 +29,8 @@ def getPokemonFromCsv(filename):
 
 if __name__ == '__main__':
     #do stuff
-    pokeList = generateList(3)
+    print ("How many Pokemon do you need?")
+    numPoke = input()
+    pokeList = generateList(numPoke)
     for pokemon in pokeList:
         print(pokemon)
