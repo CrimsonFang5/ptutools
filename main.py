@@ -4,7 +4,6 @@ import logging
 import json
 import csv
 import random
-from pokemon import Pokemon
 
 
 
@@ -30,7 +29,7 @@ def getPokemonFromCsv(filename):
 if __name__ == '__main__':
     #do stuff
     print ("How many Pokemon do you need?")
-    numPoke = input()
+    numPoke = int(input())
     pokeList = generateList(numPoke)
     for pokemon in pokeList:
         print(pokemon)

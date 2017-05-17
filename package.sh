@@ -1,1 +1,1 @@
-zip -r ../ptutools.zip ./
+zip -r ../ptutools.zip ./ -x "*.git*"
